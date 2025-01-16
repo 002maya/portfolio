@@ -1,0 +1,60 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background: #333;
+    padding: 10px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(29, 19, 66);
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('assets/images/hero-bg.jpg') no-repeat center center/cover;
+    color: rgb(121, 7, 7);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.cta {
+    background: #1b411c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Features Section */
+#features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.feature {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature img {
+    max-width: 100%;
+    border-radius: 5px;
+}

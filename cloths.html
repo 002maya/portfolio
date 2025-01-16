@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">FashionHub</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to FashionHub</h1>
+        <p>Discover the latest trends in fashion.</p>
+        <button onclick="exploreProducts()">Shop Now</button>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At FashionHub, we believe in style, quality, and comfort. Explore our wide range of clothing to express your unique style.</p>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="shirt.jpg" alt="Stylish Shirt">
+                <h3>Stylish Shirt</h3>
+                <p>$25.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="dress.jpg" alt="Elegant Dress">
+                <h3>Elegant Dress</h3>
+                <p>$40.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="jacket.jpg" alt="Trendy Jacket">
+                <h3>Trendy Jacket</h3>
+                <p>$60.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 FashionHub. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
