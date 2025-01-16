@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #6e7dff, #3a47d1);
+            color: #fff;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #333;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 2rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #6e7dff;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            text-align: center;
+            color: #555;
+        }
+
+        /* About Section */
+        .about {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Projects Section */
+        .projects ul {
+            display: flex;
+            justify-content: center; /* Centers the project items horizontally */
+            gap: 2rem;
+            padding: 0;
+            flex-wrap: wrap; /* Allows wrapping of items on smaller screens */
+        }
+
+        .projects li {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+            width: 250px; /* Optional: controls the width of each project item */
+        }
+
+        .projects li:hover {
+            transform: translateY(-10px);
+        }
+
+        .projects h3 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        /* Contact Section */
+        .contact {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact a {
+            color: #3a47d1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1.5rem 0;
+            margin-top: 4rem;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 1rem 0;
+            }
+
+            .container {
+                padding: 0 1rem;
+            }
+
+            .projects ul {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Maya Dong tamang. I love creating, learning, and exploring new challenges. I am passionate about coding, design, and technology!</p>
+        </section>
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3><a href="welcome page.html">Welcome</a></h3>
+                    
+                </li>
+                <li>
+                    <h3><a href="der.html">calander</a></h3>
+                
+                </li>
+                <li>
+                    <h3><a href="bookcab.html">book a cab</a></h3>
+                    
+                </li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to email me at <a href="mailto:lamamaya813@gmail.com">lamamaya813@gmail.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Maya Dong Lama. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
