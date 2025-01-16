@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Cab</title>
+    <link rel="stylesheet" href="bookcab.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Book a Cab</h1>
+        </div>
+    </header>
+    
+    <section class="booking-form">
+        <div class="container">
+            <h2>Reserve Your Ride</h2>
+            <form>
+                <label for="pickup-location">Pick-up Location:</label>
+                <input type="text" id="pickup-location" name="pickup-location" placeholder="Enter pick-up location" required>
+
+                <label for="drop-location">Drop-off Location:</label>
+                <input type="text" id="drop-location" name="drop-location" placeholder="Enter drop-off location" required>
+
+                <label for="cab-type">Select Cab Type:</label>
+                <select id="cab-type" name="cab-type" required>
+                    <option value="standard">Standard</option>
+                    <option value="luxury">Luxury</option>
+                    <option value="suv">SUV</option>
+                </select>
+
+                <label for="pickup-time">Pick-up Time:</label>
+                <input type="datetime-local" id="pickup-time" name="pickup-time" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Book a Cab. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
